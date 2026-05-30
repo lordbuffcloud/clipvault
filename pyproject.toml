@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clipvault"
+version = "0.1.0"
+description = "A CK42X terminal clipboard-history applet with local persistent history."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "CK42X Dev Lab" }]
+license = { text = "MIT" }
+keywords = ["clipboard", "terminal", "tui", "productivity", "ck42x"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Environment :: Console",
+  "Topic :: Utilities",
+]
+
+[project.scripts]
+clipvault = "clipvault.app:main"
+clipvaultd = "clipvault.app:daemon_main"
