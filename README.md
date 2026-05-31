@@ -148,6 +148,12 @@ python3 -m clipvault --help
 PYTHONDONTWRITEBYTECODE=1 python3 -m clipvault --snapshot-ui
 ```
 
+## Support
+
+ClipVault is free. If it saves you time, you can support CK42X here:
+
+https://buymeacoffee.com/napalmlighs
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
