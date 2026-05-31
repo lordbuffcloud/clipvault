@@ -13,8 +13,8 @@ It is intentionally boring where it matters: no cloud account, no third-party Py
    ^^  ^^
 ────────────────────────────────────────────────────────────────────────────────────────────────
 ┌───────────────────────────────────────────────────────────────┐  ┌─────────────────────────┐
-│ HISTORY BUFFER                                                │  │ OPS                    │
-│  ▶ ★ 001 │ release notes: polish clipboard history UI         │  │  items    42            │
+│ HISTORY BUFFER                                                │  │ OPS                     │
+│ ▶ ★ 001 │ release notes: polish clipboard history UI         │  │  items    42            │
 │      002 │ python3 -m clipvault --history ./history.json      │  │  visible  42            │
 │      003 │ support reply: thanks, I will test this today      │  │  pinned   3             │
 └───────────────────────────────────────────────────────────────┘  └─────────────────────────┘
