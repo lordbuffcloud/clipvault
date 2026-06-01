@@ -34,6 +34,24 @@ It is intentionally boring where it matters: no cloud account, no third-party Py
 
 ## Install
 
+One-line install for macOS, Linux, or WSL:
+
+```bash
+curl -fsSL https://ck42x.com/install/clipvault.sh | bash
+```
+
+Windows PowerShell installer for the default WSL distro:
+
+```powershell
+iwr https://ck42x.com/install/clipvault-wsl.ps1 -OutFile $env:TEMP\clipvault-wsl.ps1; powershell -ExecutionPolicy Bypass -File $env:TEMP\clipvault-wsl.ps1
+```
+
+GitHub-hosted fallback:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/lordbuffcloud/clipvault/main/install/clipvault.sh | bash
+```
+
 From the repo folder:
 
 ```bash
